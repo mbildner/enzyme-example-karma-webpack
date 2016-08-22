@@ -19,4 +19,9 @@ class Foo extends React.Component {
 Foo.propTypes = propTypes;
 Foo.defaultProps = defaultProps;
 
-export default Foo;
+const Bar = () => <div>this is cool</div>
+
+export {
+  Foo,
+  Bar
+};
